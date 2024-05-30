@@ -49,3 +49,7 @@
 
 ### Performance report
 * npm run test-performance
+
+### Preparing envirionment
+* kubectl apply -f setup.yaml
+* kubectl apply -f auto-scalling.yaml (ensure execute this step after passed 2m after the previous step. This time is essencial to ensure started the Metric services)
